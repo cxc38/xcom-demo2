@@ -40,7 +40,7 @@ npm i
 You may need to update one of the drop-in components, or `@adobe/magento-storefront-event-collector` or `@adobe/magento-storefront-events-sdk` to a new version. Besides checking the release notes for any breaking changes, ensure you also execute the `postinstall` script so that the dependenices in your `scripts/__dropins__` directory are updated to the latest build. This should be run immediately after you update the component, for example:
 
 ```
-npm install @dropins/storefront-cart@2.0. # Updates the storefront-cart dependency in node_modules/
+npm install @dropins/storefront-cart@1.2.2 # Updates the storefront-cart dependency in node_modules/
 npm run postinstall # Copies scripts from node_modules into scripts/__dropins__
 ```
 
